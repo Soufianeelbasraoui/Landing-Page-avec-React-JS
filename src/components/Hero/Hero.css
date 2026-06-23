@@ -1,0 +1,29 @@
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(  135deg, #f5f6ff, #eef3ff);
+}
+.hero-btn {
+  background: #6c63ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 300;
+  box-shadow: 0 15px 30px rgba(108,99,255,.25);
+}
+.demo-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFFF;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.FaPlay{
+   color: #6c63ff;
+}

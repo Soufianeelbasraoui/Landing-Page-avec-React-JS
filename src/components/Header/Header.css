@@ -42,7 +42,6 @@
   height: 35px;
   border-radius: 100%;
   border: 1px solid #d9dcf3;
-  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,25 +59,13 @@
   background-color: #6366f1;
   color: white;
   border: none;
-  padding: 10px 25px;
-  border-radius: 10px;
-  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
 
 }
 
 .start-btn:hover {
   background: #5458e8;
   color: white;
-}
-
-@media (max-width: 991px) {
-  .navbar-nav {
-    text-align: center;
-    padding: 20px 0;
-  }
-
-  .d-flex.gap-3 {
-    justify-content: center;
-    margin-top: 20px;
-  }
 }
