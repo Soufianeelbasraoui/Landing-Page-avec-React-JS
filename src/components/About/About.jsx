@@ -12,10 +12,10 @@ function About(){
                          <p><strong>Le problème :</strong> Les équipes agiles jonglent entre 5 à 8 outils différents — et passent 30 % de leur temps à synchroniser l'information plutôt qu'à produire.</p>
                          <p><strong>Notre solution :</strong> FlowSync centralise la planification, l'exécution et le reporting dans une interface unifiée, conçue dès le départ pour les équipes qui livrent vite.</p> 
                          <p><strong>Pour qui :</strong> Start-ups, scale-ups et divisions tech des grandes entreprises qui pratiquent Scrum, Kanban ou des méthodologies hybrides.</p>
-                         <p><FiCheckCircle className="text-success text-4xl" /><strong>Onboarding en 5 minutes </strong> — Importez vos projets existants depuis Jira, Trello ou Asana en un clic.</p>
-                         <p><FiCheckCircle className="text-success text-4xl" /><strong>Zéro courbe d'apprentissage</strong> — Interface intuitive pensée pour des équipes non-techniques et tech.</p>
-                         <p><FiCheckCircle className="text-success text-4xl" /><strong>Scalable de 2 à 2000 utilisateurs</strong> — Grandit avec vous : PME, scale-ups ou grandes entreprises.</p>
-                         <p><FiCheckCircle className="text-success text-4xl" /><strong>Support humain 24/7</strong> — Une vraie équipe, pas un bot — disponible par chat, email et téléphone.</p>
+                         <p><FiCheckCircle className="text-success text-4xl me-2" /><strong>Onboarding en 5 minutes </strong> — Importez vos projets existants depuis Jira, Trello ou Asana en un clic.</p>
+                         <p><FiCheckCircle className="text-success text-4xl me-2" /><strong>Zéro courbe d'apprentissage</strong> — Interface intuitive pensée pour des équipes non-techniques et tech.</p>
+                         <p><FiCheckCircle className="text-success text-4xl me-2" /><strong>Scalable de 2 à 2000 utilisateurs</strong> — Grandit avec vous : PME, scale-ups ou grandes entreprises.</p>
+                         <p><FiCheckCircle className="text-success text-4xl me-2" /><strong>Support humain 24/7</strong> — Une vraie équipe, pas un bot — disponible par chat, email et téléphone.</p>
                     </div>
                     <div className="col-lg-6">
                         <div className="card-Roadmap">
