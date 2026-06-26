@@ -27,3 +27,35 @@
 .FaPlay{
    color: #6c63ff;
 }
+.dashboard-card{
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+.cards-row{
+  display: flex;
+  gap: 30px;
+}
+.task-card {
+  flex: 1;
+  background: #f5f5fa;
+  border-radius: 5px;
+  padding: 20px;
+}
+.en-cours {
+  background: #ece8ff;
+}
+
+.termine {
+  background: #dff8f0;
+}
+
+.progress-group {
+  margin-top: 10px;
+}
+
+.progress {
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}

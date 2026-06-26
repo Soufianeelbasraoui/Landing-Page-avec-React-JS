@@ -1,0 +1,13 @@
+.feature{
+    
+    background: linear-gradient(  135deg, #f5f6ff, #eef3ff);
+
+}
+.featue-fonc{
+    text-align: center;
+    padding: 30px;
+}
+.icon-box svg{
+    width: 25px;
+    height: 25px;
+}

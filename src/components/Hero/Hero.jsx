@@ -41,12 +41,50 @@ function Hero(){
             </div>
 
             <div className="col-lg-6">
+              <div className="dashboard-card">
+                <div className="cards-row">
+                  <div className="task-card">
+                       <h5>À faire</h5>
+                        <h2>4</h2>
+                  </div>
+                  <div className="task-card en-cours">
+                    <h5>En cours</h5>
+                    <h2>6</h2>
+                  </div>
+                  <div className="task-card termine">
+                    <h5>Terminé</h5>
+                    <h2>12</h2>
+                  </div>
+                </div>
+                   <h5 className="mt-5">SPRINT 12 — SEMAINE 3/4</h5>
 
+                   <div className="progress-group">
+                    <span>Frontend</span>
+                     <div className="progress" style={{ height: "10px" }}>
+                      <div className="progress-bar"  style={{ width: "78%" }}>
+                      </div>
+                     </div>
+                   </div>
+                   
+                   <div className="progress-group">
+                    <span>Backend API</span>
+                    <div className="progress" style={{ height: "10px" }}>
+                      <div className="progress-bar bg-success"   style={{ width: "91%" }}>
+                      </div>
+                    </div>
+                   </div>
+
+                   <div className="progress-group">
+                     <span>Tests QA</span> 
+                     <div className="progress" style={{ height: "10px" }}>
+                      <div className="progress-bar bg-info" style={{width:"50%"}}>
+                      </div>
+                     </div>
+                   </div>
+
+              </div>
             </div>
-           
           </div>
-
-
         </div>
        </section>
     )
