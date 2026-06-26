@@ -1,0 +1,29 @@
+.about-container{
+        background: linear-gradient(  135deg, #f5f6ff, #eef3ff);
+}
+.card-Roadmap{
+     background: white;
+     border-radius: 5px;
+     padding: 20px;
+}
+.roadmap-encour{
+    background-color: rgb(63, 213, 163);
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.reodmap{
+    display: flex;
+    justify-content: space-between;
+}
+.container-Q3{
+    margin: 10px;
+    padding:10px;
+}
+.Q3{
+    border: none;
+    padding: 10px;
+    background-color: #eef3ff;
+    border-radius: 10px;
+}
