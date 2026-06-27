@@ -1,0 +1,20 @@
+.temoignages{
+       
+    background: linear-gradient(  135deg, #f5f6ff, #eef3ff);
+}
+.trust-section{
+    padding:80px 0;
+}
+
+.trust-text{
+    font-size:1.25rem;
+    color:#6b7280;
+    font-weight:500;
+}
+
+.brand-name{
+    color:#9ca3af;
+    font-size:1.5rem;
+    font-weight:700;
+    cursor:pointer;
+}
