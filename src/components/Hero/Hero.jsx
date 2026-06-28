@@ -15,14 +15,15 @@ function Hero(){
               <p className="hero-text">FlowSync unifie vos sprints, vos tâches et vos communications en une seule plateforme agile. Moins de friction, plus de livraisons.</p>
 
              <div className="d-flex gap-3 flex-wrap mt-4">
-                <button className=" hero-btn">
-                Commencer gratuitement
-                 <FaArrowRight className="ms-2"/>
-                </button>
-                <button className=" demo-btn">
-                  <FaPlay className="FaPlay"/>
-                  <span>Voir la démo</span>
-                </button>
+                  <a href="#Contact" className="hero-btn text-decoration-none">
+                    Commencer gratuitement
+                    <FaArrowRight className="ms-2" />
+                  </a>
+
+                  <a href="#Features" className="demo-btn text-decoration-none">
+                    <FaPlay className="FaPlay me-2" />
+                    <span>Voir la démo</span>
+                  </a>
              </div>
              <div  className="d-flex gap-5 mt-5">
               <div>

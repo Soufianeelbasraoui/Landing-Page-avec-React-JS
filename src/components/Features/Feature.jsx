@@ -43,7 +43,7 @@ function Feature(){
       ];
      
     return(
-        <div className="feature py-5">
+        <div className="feature py-5" id="Features">
             <div className="container">
           
               <div className="text-center mb-5">

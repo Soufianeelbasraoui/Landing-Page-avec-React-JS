@@ -2,7 +2,7 @@ import { FiCheckCircle } from "react-icons/fi";
 import "./About.css"
 function About(){
     return(
-        <div className="about-container">
+        <div className="about-container" id="About">
             <div className="container">
                 <h5 className="text-center text-primary mb-3">À propos</h5>
 
