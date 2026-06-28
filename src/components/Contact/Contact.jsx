@@ -5,7 +5,6 @@ function Contact(){
 
     const [form, setForm] = useState({name:" ",email:" ",message:" "});
    const [errors, setErrors] = useState({});
-
     const handleChange = (e)=>{
         const{name,value}=e.target;
         setForm({...form,[name]:value});
@@ -30,7 +29,7 @@ function Contact(){
         
         if(Object.keys(newErrors).length===0){
             alert("Message envoyé avec succès !");
-           
+    
             setForm({
                 name:"",
                 email:"",
