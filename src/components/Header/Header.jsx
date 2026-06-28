@@ -1,6 +1,14 @@
 import { FaBolt, FaMoon } from "react-icons/fa";
 import "./Header.css";
+import { useState } from "react";
+import { FaSun } from "react-icons/fa6";
 function Header() {
+
+  const[darkMod,setDarkMod]=useState(false);
+  const toggleTheme=()=>{
+    setDarkMod(!darkMod);
+    document.body.classList.toggle("dark-theme");
+  }
   return (
     <nav className="navbar navbar-expand-lg custom-navbar " id="Header">
       <div className="container">
@@ -22,12 +30,11 @@ function Header() {
             <li className="nav-item"> <a className="nav-link" href="#Features">Fonctionnalités</a> </li>
             <li className="nav-item"> <a className="nav-link" href="#About">À propos</a> </li>
             <li className="nav-item"><a className="nav-link" href="#Testimonials">Témoignages</a> </li>
-            <li className="navitem"><a className="nav-link" href="#Pricing">Tarifs</a> </li>
             <li className="nav-item"><a className="nav-link" href="#Contact">Contact</a></li>
           </ul>
 
           <div className="d-flex align-items-center gap-3">
-            <button className="theme-btn"> <FaMoon /> </button>
+            <button className="theme-btn" onClick={toggleTheme}>{darkMod ? <FaSun/>:<FaMoon/>} </button>
             <a href="#Contact" className="btn  btn-primary start-btn">   Commencer</a>
           </div>
 

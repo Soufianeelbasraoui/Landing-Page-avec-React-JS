@@ -1,0 +1,132 @@
+body{
+    transition: .3s;
+}
+
+body.dark-theme{
+    background: #111827;
+    color: white;
+}
+
+body.dark-theme .custom-navbar,
+body.dark-theme .hero,
+body.dark-theme .feature,
+body.dark-theme .about-container,
+body.dark-theme .contact,
+body.dark-theme .footer,
+body.dark-theme .temoignages{
+    background:#111827 ;
+    color:white ;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6{
+    color:#fff;
+}
+body.dark-theme p,
+body.dark-theme span,
+body.dark-theme li{
+    color:#d1d5db;
+}
+body.dark-theme .nav-link{
+    color:white;
+}
+
+body.dark-theme .nav-link:hover{
+    color:#818cf8;
+}
+
+body.dark-theme .logo-text{
+    color:white;
+}
+
+body.dark-theme .dashboard-card,
+body.dark-theme .contact-form,
+body.dark-theme .feature-card,
+body.dark-theme .card,
+body.dark-theme .card-Roadmap{
+    background:#1f2937;
+    color:white;
+    border:1px solid #374151;
+}
+body.dark-theme .Q3{
+    background-color: hwb(217 21% 69%);
+
+  }
+body.dark-theme .descr{
+    color: white;
+}
+
+body.dark-theme .task-card{
+    background:#374151;
+    color:white;
+}
+
+body.dark-theme .en-cours{
+    background:#4338ca;
+}
+
+body.dark-theme .termine{
+    background:#065f46;
+}
+
+body.dark-theme .progress{
+    background:#374151;
+}
+
+body.dark-theme .form-label{
+    color: white;
+}
+body.dark-theme .form-control{
+    background:#374151;
+    color:white;
+    border:1px solid #555;
+}
+
+body.dark-theme .form-control::placeholder{
+    color:#9ca3af;
+}
+
+body.dark-theme .form-control:focus{
+    background:#374151;
+    color:white;
+    border-color:#6366f1;
+    box-shadow:none;
+}
+
+body.dark-theme .hero-btn,
+body.dark-theme .start-btn,
+body.dark-theme .btn-primary{
+    background:#6366f1;
+    border-color:#6366f1;
+    color:white;
+}
+
+body.dark-theme .demo-btn{
+    background:#1f2937;
+    color:white;
+    border:1px solid #4b5563;
+}
+
+body.dark-theme .demo-btn:hover{
+    background:#374151;
+}
+
+body.dark-theme .theme-btn{
+    background:#374151;
+    color:white;
+    border-color:#555;
+}
+
+body.dark-theme footer,
+body.dark-theme .footer{
+    border-top:1px solid #374151;
+}
+
+body.dark-theme a{
+    color:#fff;
+}
+

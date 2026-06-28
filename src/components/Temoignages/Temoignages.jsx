@@ -29,7 +29,7 @@ function Temoignages(){
                                    <MdOutlineStar />
                                    <MdOutlineStar />
                                </div>
-                               <p className="text-muted">“FlowSync a divisé par deux notre temps de synchronisation d'équipe. Nos sprints sont désormais prévisibles et nos livraisons, systématiques. C'est l'outil qu'on attendait depuis des années.”</p>
+                               <p >“FlowSync a divisé par deux notre temps de synchronisation d'équipe. Nos sprints sont désormais prévisibles et nos livraisons, systématiques. C'est l'outil qu'on attendait depuis des années.”</p>
                                <h6 className="fw-bold mb-0">Jean Dupont</h6>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ function Temoignages(){
                                    <MdOutlineStar />
                                    <MdOutlineStar />
                                </div>
-                               <p className="text-muted">“FlowSync a divisé par deux notre temps de synchronisation d'équipe. Nos sprints sont désormais prévisibles et nos livraisons, systématiques. C'est l'outil qu'on attendait depuis des années.”</p>
+                               <p>“FlowSync a divisé par deux notre temps de synchronisation d'équipe. Nos sprints sont désormais prévisibles et nos livraisons, systématiques. C'est l'outil qu'on attendait depuis des années.”</p>
                                <h6 className="fw-bold mb-0">Jean Dupont</h6>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ function Temoignages(){
                                    <MdOutlineStar />
                                    <MdOutlineStar />
                                </div>
-                               <p className="text-muted">“FlowSync a divisé par deux notre temps de synchronisation d'équipe. Nos sprints sont désormais prévisibles et nos livraisons, systématiques. C'est l'outil qu'on attendait depuis des années.”</p>
+                               <p>“FlowSync a divisé par deux notre temps de synchronisation d'équipe. Nos sprints sont désormais prévisibles et nos livraisons, systématiques. C'est l'outil qu'on attendait depuis des années.”</p>
                                <h6 className="fw-bold mb-0">Jean Dupont</h6>
                         </div>
                     </div>

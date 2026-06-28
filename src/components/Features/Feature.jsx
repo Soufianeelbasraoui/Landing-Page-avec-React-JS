@@ -68,7 +68,7 @@ function Feature(){
                                 <div className="card-body p-3">
                                     <div className="icon-box mb-2 text-primary w-5"><Icon/></div>
                                     <h4 className="fw-bold mb-2">{feature.title}</h4>
-                                    <p className="text-muted">{feature.description}</p>
+                                    <p >{feature.description}</p>
                                 </div>
                             </div>
                         </div>
